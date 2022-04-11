@@ -1,11 +1,11 @@
 /*
  * @Date: 2022-01-25 17:39:08
- * @LastEditors: Please set LastEditors
+ * @LastEditors: jimouspeng
  * @Description: 描述文件内容
- * @LastEditTime: 2022-04-07 11:06:11
+ * @LastEditTime: 2022-04-11 22:53:30
  * @FilePath: \eggjs\config\plugin.js
  */
-'use strict';
+'use strict'
 
 /** @type Egg.EggPlugin */
 // module.exports = {
@@ -18,4 +18,10 @@
 exports.nunjucks = {
     enable: true,
     package: 'egg-view-nunjucks',
-};
+}
+
+exports.cors = {
+    /** 开启CORS跨域配置 */
+    enable: true,
+    package: 'egg-cors',
+}

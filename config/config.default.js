@@ -1,8 +1,8 @@
 /*
  * @Date: 2022-01-25 17:39:08
- * @LastEditors: Please set LastEditors
+ * @LastEditors: jimouspeng
  * @Description: 描述文件内容
- * @LastEditTime: 2022-04-07 11:05:57
+ * @LastEditTime: 2022-04-11 22:50:36
  * @FilePath: \eggjs\config\config.default.js
  */
 /* eslint valid-jsdoc: "off" */
@@ -12,7 +12,7 @@
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
-module.exports = (appInfo) => {
+module.exports = appInfo => {
     /**
      * built-in config
      * @type {Egg.EggAppConfig}
